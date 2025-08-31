@@ -28,10 +28,10 @@ def classify_email(email_content):
         ]
 
         if top_label in productive_labels and confidence > 0.3:
-            return "Categoria: Produtivo! " \
+            return "Categoria Produtivo! " \
             "Sugestão: Olá, e-mail obrigado pelo e-mail! Retornaremos o mais breve possível"
         else:
-            return "Categoria: Improdutivo! " \
+            return "Categoria Improdutivo! " \
                 "Sugestão: Olá, Obrigado pela mensagem!"
             
     except Exception as e:
