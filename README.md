@@ -6,6 +6,8 @@
 
 # O **Email Classifier** é uma aplicação web desenvolvida em Python que utiliza modelos de Machine Learning da Hugging Face para classificar automaticamente o conteúdo de emails. O sistema permite upload de arquivos (PDF/TXT) ou entrada direta de texto, processando e categorizando o conteúdo de forma inteligente e retornando uma sugestão de resposta ao e-mail. #
 
+![alt text](app/static/img/imagemteste1.png)
+
 ## Tecnologias Utilizadas
 
 - **Backend**: Python, Flask
